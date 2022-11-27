@@ -1,0 +1,21 @@
+.SideBar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #0c0c0c;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.list{
+  display: block;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  text-decoration: none;
+}
+
+.list:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
